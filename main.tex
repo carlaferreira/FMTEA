@@ -1,0 +1,66 @@
+\documentclass{llncs}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+
+\begin{document}
+%
+\title{Using TLA+ to teach broadcast protocols}
+
+%\author{First Author\inst{1}\orcidID{0000-1111-2222-3333} \and
+%Second Author\inst{2,3}\orcidID{1111-2222-3333-4444} \and
+%Third Author\inst{3}\orcidID{2222--3333-4444-5555}}
+%
+%\authorrunning{F. Author et al.}
+%
+%\institute{Princeton University, Princeton NJ 08544, USA \and
+%Springer Heidelberg, Tiergartenstr. 17, 69121 Heidelberg, Germany
+%\email{lncs@springer.com}\\
+%\url{http://www.springer.com/gp/computer-science/lncs} \and
+%ABC Institute, Rupert-Karls-University Heidelberg, Heidelberg, Germany\\
+%\email{\{abc,lncs\}@uni-heidelberg.de}}
+
+\maketitle             
+
+\begin{abstract}
+
+
+\keywords{First keyword  \and Second keyword \and Another keyword.}
+\end{abstract}
+
+\section{Introduction}
+
+\begin{itemize}
+\item Inherent complexity of distributed systems
+\item Fully understanding the details
+\end{itemize}
+
+\section{Broadcast protocols}
+
+\begin{itemize}
+\item Best-effort
+\item Reliable 
+\item Causal
+\item Atomic
+\end{itemize}
+
+
+\section{Communication layer}
+
+\begin{itemize}
+\item easy to see the impact of different communication mechanisms (fifo, causal, unordered, etc)
+\item  easy to change the underlaying assumptions (messages lost, messages corrupted, etc).
+\end{itemize}
+
+\section{Safety and liveness properties}
+
+\subsection{Fairness properties}
+
+
+\section{Conclusions}
+
+\bibliographystyle{splncs04}
+\bibliography{biblio}
+
+\end{document}
